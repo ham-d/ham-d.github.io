@@ -1,0 +1,221 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1{
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav{
+	font-size: 10px;
+}
+
+footer{
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+#get-involved{
+	background-color: #f5f5f5;
+}
+
+#back-to-top{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+.jumbotron{
+	text-align: center;
+    background: #e74c3c;
+	color: white;
+    min-height: 600px;
+}
+
+.jumbotron h1 {
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 0 50px;
+}
+
+.jumbotron a {
+    color: white;
+} 
+
+.jumbotron .social {
+    padding-left: 10px;
+}
+
+.modal-content iframe{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.modal-content button.close{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background-color: white;
+	font-size: 28px;
+	width: 30px;
+	opacity: 1;
+	border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+}
+
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -173px;
+}
+
+.btn-lg {
+	font-size: 36px; 
+}
+
+.homepage {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 150px;
+}
+
+.homepage h2, .homepage h3 {
+	color: #e74c3c;
+}
+
+.homepage h2 {
+    font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.homepage h3 {
+    font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.homepage a {
+	color: #e74c3c;
+}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: .8;
+
+}
+
+.homepage hr {
+	border-top: 1px solid #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+img{
+    border-radius: 5%;
+    margin-bottom: 8px;
+}
+
+img:hover{
+    opacity: .8;
+}
+
+.container-fluid {
+    width: 95%;
+}
+
+#who {
+    background: #fff;
+}
+
+#projects {
+    background: #D1D1D1;
+} 
+
+
+#projects .col-md-3 {
+    margin: 0 3.5% 15px 3.5%;
+    border: 1px solid #3B3B3B;
+    background: #F5F5F5;
+    border-radius: 3%;
+    min-height: 515px;
+}
+
+#projects .col-md-3 hr {
+    border-top: 1px solid #e74c3c;
+	width: 160px;
+	margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#projects .single {
+    margin: 0 auto 10px;
+}
+
+/* responsive styling */
+@media (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+ }
+
+@media (max-width: 991px) {
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+ }
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+ }

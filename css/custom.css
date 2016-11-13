@@ -156,7 +156,7 @@ img:hover{
 
 
 #projects .col-md-3 {
-    margin: 0 3.5% 15px 3.5%;
+    margin: 0 3% 15px 5%;
     border: 1px solid #3B3B3B;
     background: #F5F5F5;
     border-radius: 3%;
@@ -171,7 +171,7 @@ img:hover{
 }
 
 #projects .single {
-    margin: 0 auto 10px;
+    margin: 60px auto 10px;
 }
 
 /* responsive styling */
